@@ -2,13 +2,13 @@ import React from "react";
 import "./LinkButton.css";
 
 interface Props {
-  className?: string;
+  additionalClasses?: string;
   url: string;
   content: string;
 }
 
-const LinkButton: React.FC<Props> = ({ className, url, content }) => {
-  const buttonClassName = className ? `btn ${className}` : "btn";
+const LinkButton: React.FC<Props> = ({ additionalClasses, url, content }) => {
+  const buttonClassName = additionalClasses ? `btn ${additionalClasses}` : "btn";
   
   return (
     <a href={url} className={buttonClassName}>
