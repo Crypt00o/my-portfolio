@@ -47,3 +47,41 @@ header {
   overflow: hidden;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+
+  .container {
+	  bottom:5rem;
+  }
+
+  .my-image {
+    width: 20rem;
+    height: 45rem;
+    margin-top: 10rem;
+    top: 30rem;
+    padding: 1rem;
+  }
+
+}
+
+@media screen  and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  
+  .container {
+	  bottom:5rem;
+  }
+
+  .my-image {
+    width: 18rem;
+    height: 25rem;
+    margin-top: 15rem;
+    top: 18rem;
+    padding: 1rem;
+  }
+  
+}
