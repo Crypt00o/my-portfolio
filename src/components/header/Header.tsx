@@ -12,6 +12,7 @@ const Header: React.FC = () => (
 			<ClickToAction />
 			<MySocialAccounts />
 			<MyImage />
+			<a href="#contact" className="scroll-down"> Scroll Down</a>
 		</div>
 	</header>
 );
